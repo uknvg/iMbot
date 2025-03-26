@@ -1,0 +1,120 @@
+.container {
+    background-color: #2a2c38 !important;
+    width: 100vw;         
+    height: 100vh;           
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login { 
+    text-align: center;
+    width: 13.75rem; /* 220px / 16 */
+    height: 2.8125rem; /* 45px / 16 */
+    border: none;
+    border-radius: 0.5rem; /* 8px / 16 */
+    background-color: #5865f2;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem; /* 20px / 16 */
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login:hover {
+    transform: scale(1.05);
+}
+
+.lwd {
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 1.125rem; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.3s ease;
+}
+
+.user {
+    position: absolute;
+    top: 0.5rem; 
+    left: 1.25rem; 
+    width: 10rem; 
+    height: auto;
+    border-radius: 0.5rem;
+    margin-left: 0.625rem; 
+    margin-top: 0.625rem; 
+    cursor: pointer;
+    display: flex; 
+    
+}
+ 
+.bx-bitcoin { 
+    font-size: 18px;
+}
+.user img {
+    border-radius: 18%;
+    border: 0.125rem solid rgba(220, 220, 221, 0.389);
+    padding: 0.09375rem; 
+    width: 2.8125rem; 
+    height: 2.8125rem; 
+    position: absolute;
+    transition: all 0.3s ease;
+} 
+
+.user img:hover { 
+    transform: scale(1.05);
+}
+
+.dropdown-menu {
+    background-color: #060606;
+    margin-top: 60px;
+    list-style-type: none; 
+    padding: 8px; 
+    border-radius: 10px; 
+    width: 200px; 
+}
+
+.dropdown-menu ul {
+    padding: 0;
+    margin: 0; 
+}
+   
+.gold { 
+    background-color: #3f3422;
+    border: 2px solid #bc9344;
+}
+.gold:hover { 
+    background-color: #604e3a;
+} 
+.logout { 
+    background-color: #76353429;
+}
+.dropdown-menu li { 
+    list-style-type: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: white; 
+}
+   
+.dropdown-menu li:hover {
+    background-color: #5b5b5b0f;
+}
+  
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}

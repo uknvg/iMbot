@@ -1,0 +1,61 @@
+.Features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة ثابتة */
+    gap: 20px;
+    padding: 50px 20px;
+    justify-items: center; /* جعل العناصر في المنتصف */
+}
+
+.feature {
+    background: #2a2b2c80;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 75%; /* تأكيد على أن كل feature يأخذ عرض 100% داخل العمود */
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #f0f2f3;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #e0e0e0;
+}
+
+@media screen and (max-width: 768px) {
+    .Features {
+        grid-template-columns: repeat(2, 1fr); /* 2 أعمدة للشاشات الصغيرة */
+        padding: 30px 10px;
+    }
+
+    .feature {
+        padding: 15px;
+    }
+
+    .feature h2 {
+        font-size: 1.5rem;
+    }
+
+    .feature p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Features {
+        grid-template-columns: 1fr; /* عمود واحد للشاشات الأصغر */
+    }
+}
