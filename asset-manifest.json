@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iMbot/static/css/main.af5e7a89.css",
+    "main.js": "/iMbot/static/js/main.ae7682ab.js",
+    "static/js/453.14de4867.chunk.js": "/iMbot/static/js/453.14de4867.chunk.js",
+    "index.html": "/iMbot/index.html",
+    "main.af5e7a89.css.map": "/iMbot/static/css/main.af5e7a89.css.map",
+    "main.ae7682ab.js.map": "/iMbot/static/js/main.ae7682ab.js.map",
+    "453.14de4867.chunk.js.map": "/iMbot/static/js/453.14de4867.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5e7a89.css",
+    "static/js/main.ae7682ab.js"
+  ]
+}
