@@ -14,7 +14,7 @@ function App() {
         {/* صفحة الرئيسية */}
         <Routes>
           <Route 
-            path="/" 
+            path="/iMbot" 
             element={
               <>
                 <Header /> 
@@ -23,7 +23,6 @@ function App() {
               </>
             } 
           />
-          {/* صفحة Dashboard */}
           <Route 
             path="/dashboard" 
             element={
