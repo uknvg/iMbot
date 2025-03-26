@@ -54,7 +54,7 @@ const Home: React.FC = () => {
     }, []);
 
     useEffect(() => {
-        if (location.pathname === '/dashboard') {
+        if (location.pathname === 'iMbot/dashboard') {
             const urlParams = new URLSearchParams(window.location.search);
             const code = urlParams.get('code');
             if (code) {
