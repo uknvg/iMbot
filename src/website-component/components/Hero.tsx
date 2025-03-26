@@ -12,7 +12,7 @@ function Hero() {
             </p>
          </div>
          <div className='buttons'> 
-            <a href='/dashboard' className='btn'>الانتقال إلى لوحة التحكم</a>
+            <a href='iMbot/dashboard' className='btn'>الانتقال إلى لوحة التحكم</a>
             <button className='btn'>أضف iM</button>
          </div>
          </div>
