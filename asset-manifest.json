@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/iMbot/static/css/main.af5e7a89.css",
-    "main.js": "/iMbot/static/js/main.9f960ebe.js",
+    "main.js": "/iMbot/static/js/main.135a70f3.js",
     "static/js/453.14de4867.chunk.js": "/iMbot/static/js/453.14de4867.chunk.js",
     "index.html": "/iMbot/index.html",
     "main.af5e7a89.css.map": "/iMbot/static/css/main.af5e7a89.css.map",
-    "main.9f960ebe.js.map": "/iMbot/static/js/main.9f960ebe.js.map",
+    "main.135a70f3.js.map": "/iMbot/static/js/main.135a70f3.js.map",
     "453.14de4867.chunk.js.map": "/iMbot/static/js/453.14de4867.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af5e7a89.css",
-    "static/js/main.9f960ebe.js"
+    "static/js/main.135a70f3.js"
   ]
 }
